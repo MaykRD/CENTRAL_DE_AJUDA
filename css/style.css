@@ -1,0 +1,21 @@
+ body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Estilos para a animação do acordeão */
+        .faq-a {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+        }
+        .faq-a.open {
+            max-height: 500px; /* Um valor alto para garantir que o conteúdo caiba */
+            opacity: 1;
+            transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
+        }
+        .faq-ic {
+            transition: transform 0.3s ease-in-out;
+        }
+        .faq-ic.rotate {
+            transform: rotate(45deg);
+        }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Ajuda</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+   
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-4xl">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-700">Central de Ajuda</h1>
+            <p class="text-gray-500 mt-2">Encontre respostas para suas dúvidas de forma rápida e fácil.</p>
+        </header>
+
+        <main class="bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-6">
+                <input type="text" id="s-in" placeholder="Pesquisar por uma pergunta..." class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 transition duration-200">
+            </div>
+
+            <div id="faq-l" class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-i border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-q w-full flex justify-between items-center p-4 bg-gray-50 text-left font-semibold text-lg hover:bg-gray-100 transition duration-200">
+                        <span>Como posso redefinir minha senha?</span>
+                        <span class="faq-ic text-2xl font-light">+</span>
+                    </button>
+                    <div class="faq-a p-4 bg-white text-gray-600 border-t border-gray-200">
+                        <p>Para redefinir sua senha, clique em "Esqueci minha senha" na tela de login. Você receberá um e-mail com instruções para criar uma nova senha. Siga as instruções cuidadosamente para garantir que a redefinição seja bem-sucedida.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-i border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-q w-full flex justify-between items-center p-4 bg-gray-50 text-left font-semibold text-lg hover:bg-gray-100 transition duration-200">
+                        <span>Quais métodos de pagamento são aceitos?</span>
+                        <span class="faq-ic text-2xl font-light">+</span>
+                    </button>
+                    <div class="faq-a p-4 bg-white text-gray-600 border-t border-gray-200">
+                        <p>Aceitamos uma variedade de métodos de pagamento, incluindo cartões de crédito (Visa, Mastercard, Amex), boleto bancário e Pix. Você pode selecionar o método de sua preferência durante o processo de checkout.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-i border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-q w-full flex justify-between items-center p-4 bg-gray-50 text-left font-semibold text-lg hover:bg-gray-100 transition duration-200">
+                        <span>Onde posso ver o status do meu pedido?</span>
+                        <span class="faq-ic text-2xl font-light">+</span>
+                    </button>
+                    <div class="faq-a p-4 bg-white text-gray-600 border-t border-gray-200">
+                        <p>Você pode acompanhar o status do seu pedido na seção "Meus Pedidos" do seu perfil. Além disso, enviaremos atualizações por e-mail à medida que o status do seu pedido mudar.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-i border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-q w-full flex justify-between items-center p-4 bg-gray-50 text-left font-semibold text-lg hover:bg-gray-100 transition duration-200">
+                        <span>Como faço para entrar em contato com o suporte?</span>
+                        <span class="faq-ic text-2xl font-light">+</span>
+                    </button>
+                    <div class="faq-a p-4 bg-white text-gray-600 border-t border-gray-200">
+                        <p>Se você não encontrou a resposta aqui, pode entrar em contato com nossa equipe de suporte através do chat online disponível no canto inferior direito da tela ou pelo e-mail suporte@exemplo.com. Nossa equipe está disponível 24/7 para ajudá-lo.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-i border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-q w-full flex justify-between items-center p-4 bg-gray-50 text-left font-semibold text-lg hover:bg-gray-100 transition duration-200">
+                        <span>Como posso rastrear meu pedido?</span>
+                        <span class="faq-ic text-2xl font-light">+</span>
+                    </button>
+                    <div class="faq-a p-4 bg-white text-gray-600 border-t border-gray-200">
+                        <p>Assim que seu pedido for enviado, você receberá um e-mail com o código de rastreamento e um link direto para a página da transportadora. Você também pode encontrar essas informações na seção "Meus Pedidos" em seu perfil.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-i border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-q w-full flex justify-between items-center p-4 bg-gray-50 text-left font-semibold text-lg hover:bg-gray-100 transition duration-200">
+                        <span>Qual é a política de devolução?</span>
+                        <span class="faq-ic text-2xl font-light">+</span>
+                    </button>
+                    <div class="faq-a p-4 bg-white text-gray-600 border-t border-gray-200">
+                        <p>Oferecemos um prazo de 30 dias para devolução de produtos. Os itens devem estar em sua condição original, com todas as etiquetas e embalagens intactas. Para iniciar o processo de devolução, acesse a seção "Devoluções" em seu perfil e siga as instruções.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 7 -->
+                <div class="faq-i border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-q w-full flex justify-between items-center p-4 bg-gray-50 text-left font-semibold text-lg hover:bg-gray-100 transition duration-200">
+                        <span>Como faço para cancelar um pedido?</span>
+                        <span class="faq-ic text-2xl font-light">+</span>
+                    </button>
+                    <div class="faq-a p-4 bg-white text-gray-600 border-t border-gray-200">
+                        <p>O cancelamento de um pedido só é possível se ele ainda não tiver sido processado ou enviado. Para verificar a elegibilidade, vá para "Meus Pedidos" e clique em "Cancelar". Se a opção não estiver disponível, entre em contato com o nosso suporte o mais rápido possível.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 8 -->
+                <div class="faq-i border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-q w-full flex justify-between items-center p-4 bg-gray-50 text-left font-semibold text-lg hover:bg-gray-100 transition duration-200">
+                        <span>Posso alterar o endereço de entrega após a compra?</span>
+                        <span class="faq-ic text-2xl font-light">+</span>
+                    </button>
+                    <div class="faq-a p-4 bg-white text-gray-600 border-t border-gray-200">
+                        <p>Alterações de endereço de entrega são possíveis apenas antes do pedido ser enviado. Se precisar de uma alteração, entre em contato com nosso suporte imediatamente com o número do seu pedido e o novo endereço.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
