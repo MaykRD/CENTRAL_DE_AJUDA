@@ -21,5 +21,5 @@ O projeto foca em **usabilidade** e **design limpo**, permitindo que os usuário
 
 ## 🖼️ Pré-visualização
 
-![Screenshot do projeto](./capturar2.png)
+![Screenshot do projeto](./Capturar2.PNG)
 
