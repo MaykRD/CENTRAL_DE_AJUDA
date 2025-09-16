@@ -1,4 +1,5 @@
-Central de Ajuda
+#Central de Ajuda
+
 Uma interface web para uma base de conhecimento ou FAQ. O projeto foca em usabilidade e design limpo, permitindo que os usuários encontrem soluções de forma rápida e intuitiva.
 
 Funcionalidades
