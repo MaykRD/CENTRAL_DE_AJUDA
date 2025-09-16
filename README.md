@@ -15,9 +15,19 @@ Tailwind CSS: Para a estilização rápida e moderna.
 
 JavaScript: Para a lógica de funcionalidade da pesquisa e do acordeão.
 
-Como Usar
-Clone o repositório para a sua máquina local.
+Instalação e Uso
+Clone o repositório:
 
-Abra o arquivo central_de_ajuda.html em seu navegador.
+git clone [https://github.com/seu-usuario/seu-projeto.git](https://github.com/seu-usuario/seu-projeto.git)
 
-Pronto! A Central de Ajuda estará pronta para ser usada.
+Abra o projeto:
+Navegue até o diretório do projeto e abra o arquivo central_de_ajuda.html em qualquer navegador web moderno.
+
+Explore a interface:
+A página já está funcional! Use a barra de pesquisa para encontrar perguntas ou clique em qualquer pergunta para ver a resposta completa.
+
+Contribuição
+Contribuições são sempre bem-vindas! Se você tiver ideias para novas funcionalidades, correções de bugs ou melhorias de design, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
